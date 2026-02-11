@@ -6,6 +6,7 @@ import streamlit as st
 import numpy as np
 import tensorflow as tf
 from PIL import Image
+import cv2
 from collections import deque, Counter
 
 
@@ -158,4 +159,5 @@ if uploaded_file:
 # =============================================================
 st.markdown("---")
 st.caption("Built with ❤️ using TensorFlow + Streamlit | MobileNetV2 Transfer Learning")
+
 
