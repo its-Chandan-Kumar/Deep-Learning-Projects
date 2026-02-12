@@ -1,6 +1,7 @@
 streamlit
-tensorflow
+tensorflow-cpu
 numpy
 keras
 opencv-python-headless
 pillow
+
