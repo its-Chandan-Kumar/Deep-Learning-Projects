@@ -14,7 +14,7 @@ from collections import deque, Counter
 # ⚙️ PAGE CONFIG
 # =============================================================
 st.set_page_config(
-    page_title="ASL Sign Detector",
+    page_title="Sign Language Detection",
     page_icon="🤟",
 )
 
@@ -35,7 +35,7 @@ CLASSES = [
 # =============================================================
 # 📚 SIDEBAR – PROJECT INFORMATION
 # =============================================================
-st.sidebar.title("🤟 ASL Detection Project")
+st.sidebar.title("🤟 American Sign Language Detection")
 
 st.sidebar.markdown("""
 ### 📖 About
@@ -111,7 +111,7 @@ def predict_frame(frame):
 # =============================================================
 # 🎯 MAIN TITLE
 # =============================================================
-st.title("🤟 ASL Sign Language Detector")
+st.title("🤟 AMerican Sign Language Detection")
 st.caption("Recognize hand signs instantly using Deep Learning")
 
 
@@ -159,3 +159,4 @@ if uploaded_file:
 # =============================================================
 st.markdown("---")
 st.caption("Built with ❤️ using TensorFlow + Streamlit | MobileNetV2 Transfer Learning")
+
