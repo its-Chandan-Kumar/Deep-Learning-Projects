@@ -111,7 +111,7 @@ def predict_frame(frame):
 # =============================================================
 # 🎯 MAIN TITLE
 # =============================================================
-st.title("🤟 AMerican Sign Language Detection")
+st.title("🤟 American Sign Language Detection")
 st.caption("Recognize hand signs instantly using Deep Learning")
 
 
